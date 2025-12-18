@@ -19,7 +19,7 @@ Explore the interactive dashboards on Tableau Public:
 
 ![Dashboard 2](Dashboard%202.png)
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 The dashboard provides five interactive views to analyze player value:
 
@@ -29,7 +29,7 @@ The dashboard provides five interactive views to analyze player value:
 4. **Team Payroll Comparison** - Compare how all 30 teams spend their money and perform
 5. **Trade & Free Agency Intel** - Identify which players to sign, trade away, pursue, or watch
 
-## 🔍 What This Project Does
+## What This Project Does
 
 This project builds a complete data pipeline that:
 
@@ -40,7 +40,7 @@ This project builds a complete data pipeline that:
 5. **Exports** clean CSV files for Tableau visualization
 6. **Visualizes** insights through an interactive dashboard
 
-## 📥 Data Sources
+## Data Sources
 
 ### Player Statistics
 - **NBA API** (`nba_api` Python library) - Basic stats (PPG, RPG, APG, shooting percentages)
@@ -54,7 +54,7 @@ This project builds a complete data pipeline that:
 - **622** unique players with salary data (80.78% coverage)
 - **3** NBA seasons
 
-## 🏗️ Pipeline Architecture
+## Pipeline Architecture
 
 ```
 NBA API + Web Scraping → MySQL Database → Python ETL Scripts → CSV Files → Tableau Dashboard
@@ -71,7 +71,7 @@ NBA API + Web Scraping → MySQL Database → Python ETL Scripts → CSV Files �
 - `tableau_value_analysis.csv` - Efficiency metrics (1,402 records)
 - `tableau_position_analysis.csv` - Position averages (15 records)
 
-## 💡 Key Insights
+## Key Insights
 
 What the dashboard reveals:
 
@@ -81,7 +81,7 @@ What the dashboard reveals:
 - **Elite Players Are Worth It**: Top performers with max contracts justify their pay
 - **Position Economics**: Combo guards and stretch bigs provide best value; traditional centers are often overpaid
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -121,7 +121,7 @@ What the dashboard reveals:
 - `player_complete_view` - Joins stats with salaries, calculates efficiency metrics
 - `team_performance_view` - Team-level aggregations
 
-## 🧮 Calculated Metrics
+## Calculated Metrics
 
 The Python scripts calculate value metrics including:
 
@@ -131,7 +131,7 @@ The Python scripts calculate value metrics including:
 - **Value Score** = (VORP × 1,000,000) / Salary × 100
 - **Value Categories** = "Hidden Gem", "Good Value", "Overpaid", etc.
 
-## 🎯 Dashboard Use Cases
+## Dashboard Use Cases
 
 **For NBA Front Offices:**
 - Identify undervalued free agents to sign
@@ -152,7 +152,7 @@ The Python scripts calculate value metrics including:
 - Compare player value across the league
 
 
-## 📝 Notes
+## Notes
 
 - **Data Coverage:** 80.78% of players have salary data. Missing data primarily affects G-League, two-way contracts, and minimal playing time players.
 - **Rate Limiting:** NBA API calls are rate-limited to respect usage guidelines
@@ -170,4 +170,4 @@ This project is for educational and personal use. Please respect the terms of se
 
 ---
 
-**Built by a data enthusiast exploring sports analytics** 🏀📊
+**Built by a data enthusiast exploring sports analytics**
