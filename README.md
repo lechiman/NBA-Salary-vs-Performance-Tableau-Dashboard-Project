@@ -4,7 +4,7 @@ An interactive Tableau dashboard analyzing the relationship between NBA player s
 
 **Key Question:** Are NBA teams getting value for their money?
 
-## 🔗 Live Dashboards
+## Live Dashboards
 
 Explore the interactive dashboards on Tableau Public:
 
@@ -93,7 +93,7 @@ What the dashboard reveals:
 | **Web Scraping** | Salary and advanced metrics collection |
 
 
-## 📁 Project Files
+## Project Files
 
 **Documentation:**
 - `README.md` - This file
@@ -109,7 +109,7 @@ What the dashboard reveals:
 - `nba_merged_stats_*.csv` - Raw merged statistics
 - `nba_player_salaries_*.csv` - Raw salary data
 
-## 💾 Database Schema
+## Database Schema
 
 **Main Tables:**
 - `player_merged_stats` - Comprehensive player statistics
